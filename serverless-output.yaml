@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  TestFunction:
+    Properties:
+      CodeUri: s3://ctomas-test/d9869c5d8b02469799c6c83fd98600dc
+      Environment:
+        Variables:
+          S3_BUCKET: ctomas-test
+      Handler: index.handler
+      Runtime: nodejs4.3
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

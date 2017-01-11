@@ -1,0 +1,13 @@
+{
+  "name": "lambda-deploy-test",
+  "version": "1.0.0",
+  "description": "Test for deploy a lambda",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "AGORA IMAGES",
+  "license": "ISC"
+}
